@@ -1,0 +1,46 @@
+讲解大纲：
+
+1.Swing图形化操作(SWT安装，组件的介绍)
+
+
+
+
+
+
+
+
+
+2.项目的分层结构  c/s b/s 
+
+   1.模型层    2. 数据层   3. 视图层
+   
+      负责操作数据             数据库      用户操作
+
+
+    biz:业务逻辑接口 chatBiz 
+    
+    biz.impl:接口实现类
+    
+    
+    client:客户资源
+    
+    client.thread:客户线程包
+    
+    
+    entity:实体包 User  Message
+    
+    
+    server:服务器包
+    
+    server.thread:服务器线程包
+    
+    tools:工具包
+
+3.难点功能的实现
+
+   
+   1.监听功能实现，对话框显示
+
+   2.服务器文件的书写（Map集合)
+
+   3.截图: Runtime.getRunTime().exec("SnippingTool.exe");
